@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\owner\\Desktop\\\u8AB2\u984C\u63D0\u51FA\u7528GitHub\u30D5\u30A9\u30EB\u30C0\\MondayRepository\\20260713\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4BEAC2-4D8D-4F4A-87F5-0457726B9C44}|20260713.vcxproj|C:\\Users\\owner\\Desktop\\\u8AB2\u984C\u63D0\u51FA\u7528GitHub\u30D5\u30A9\u30EB\u30C0\\MondayRepository\\20260713\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F4BEAC2-4D8D-4F4A-87F5-0457726B9C44}|20260713.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\owner\\Desktop\\\u8AB2\u984C\u63D0\u51FA\u7528GitHub\u30D5\u30A9\u30EB\u30C0\\MondayRepository\\20260713\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\owner\\Desktop\\\u8AB2\u984C\u63D0\u51FA\u7528GitHub\u30D5\u30A9\u30EB\u30C0\\MondayRepository\\20260713\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-13T00:33:36.998Z",
+              "EditorCaption": ""
             }
           ]
         }
