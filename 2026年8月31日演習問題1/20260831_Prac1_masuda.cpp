@@ -11,30 +11,24 @@ private:
 public:
 
     BankAccount(const string& holder, double initialBalance)
-        : accountHolder(holder), balance(initialBalance) 
-    {
+        : accountHolder(holder), balance(initialBalance) {
     }
 
-    double getBalance() const 
-    {
+    double getBalance() const {
         return balance;
     }
 
-    void deposit(double amount) 
-    {
-        if (amount > 0) 
-        {
+    void deposit(double amount) {
+        if (amount > 0) {
             balance += amount;
             cout << "Deposited: " << amount << "\n";
         }
-        else 
-        {
+        else {
             cout << "Invalid deposit amount.\n";
         }
     }
 
-    void withdraw(double amount) 
-    {
+    void withdraw(double amount) {
         if (amount > 0 && amount <= balance)
         {
             balance -= amount;
@@ -53,18 +47,15 @@ public:
     }
 };
 
-int main() 
-{
+int main() {
     BankAccount account("Alice", 5000.0);
 
-    //名前・残高を表示
     account.displayAccountInfo();
-    //入金額を表示
+
     account.deposit(1000.0);
-    //引き落とし額を表示
     account.withdraw(2000.0);
     account.withdraw(5000.0); // 残高不足で失敗
-    //名前・残りの残金を表示
+
     account.displayAccountInfo();
 
     return 0;
